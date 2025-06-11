@@ -39,7 +39,7 @@ def calculatePace(games_played, value):
 
 @app.route('/')
 def home():
-    return render_template('projection.html')
+    return render_template('index.html')
 
 @app.route('/project', methods=['GET'])
 def project():
